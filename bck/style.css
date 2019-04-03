@@ -1,0 +1,210 @@
+body, html{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+/*html {
+  margin:0;
+  padding:0;
+
+}
+body {
+  margin: 0 auto;
+  width: 100%;
+}*/
+
+.corpo_site{
+    width: 100%;
+    height: 800px;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+}
+.app-corpo{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+
+}
+.app-corpo h1{
+    padding-top: 20vh;
+    font-size: 50px;
+}
+.app-corpo p{
+    font-size: 20px;
+}
+
+@media (max-width: 667px){
+    .app-corpo p{
+    margin: 30px;
+    font-size: 20px;
+}
+}
+@media (max-width: 660px){
+    .form-box{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding-left: 9px;
+    padding-right: 20px;
+
+
+}
+
+}
+.sobre-app{
+    width: 100%;
+    height: 500px;
+  
+    text-align: center;
+}
+.txt-sobre h1{
+    padding-top: 70px;
+    text-align: center;
+    font-family: sans-serif;
+    color: dimgrey;
+    padding-bottom: 50px;
+}
+.img-perfil{
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 300px;
+    margin: auto;
+    background-image: url(img/perfil.jpg);
+    background-size: cover;
+}
+.caixa{
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: auto;
+    /*border: 1px solid red;*/
+}
+.servicos{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    /*border: 1px solid red;*/
+    padding: 0;
+}
+.servicos h1{
+
+    font-family: sans-serif;
+    color: dimgrey;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.box-card{
+    margin: auto;
+    width: 300px;
+    
+}
+@media (max-width: 667px){
+    
+    .servicos{
+        margin-top: 320px;
+        height: 800px;
+    }
+
+}
+.contato-app {
+    width: 100%;
+    height: 570px;
+    background-color: #e0e0e0;
+    font-family: sans-serif;
+    text-align: center;
+    color: dimgray;
+}
+.txt-contato{
+    font-family: sans-serif;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.box-contato-txt h1{
+    font-family: sans-serif;
+    font-size: 25px; 
+}
+.box-contato-txt p{
+    text-align: justify;
+    
+}
+.box-contato-txt{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-top: 20px;
+    
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    margin: auto; 
+}
+.img-icon{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+#img-icon{
+    width: 30px; 
+    padding-top: 10px;
+    
+}
+.form-box{
+    padding-top: 20px;
+}
+#img-contato{
+    width: 50px;
+    padding-bottom: 10px;
+}
+
+/* media contato*/
+@media (max-width: 667px){
+    
+    .img-contato{
+        margin-top: -50px;
+    } 
+}
+@media (max-width: 667px){
+    footer{
+        margin-top: 0px;
+    }
+    
+}
+@media (max-width: 667px){
+    .contato-app{
+        margin-top: 50px;
+        height: 900px;
+    }
+}
+@media (max-width: 667px){
+    .txt-contato h1{
+        margin-top: 50px; 
+        
+    }
+}
+@media (max-width: 667px){
+    .box-contato-txt{
+        margin-top: -20px;
+    }
+}
+
+
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
